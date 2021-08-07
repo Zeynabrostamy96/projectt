@@ -1,0 +1,30 @@
+﻿@using TapLearn.Layer.Entites.Course
+@model IEnumerable<CourseGroup>
+<div class="main-menu">
+    <div class="container">
+        <nav>
+            <span class="responsive-sign"><i class="zmdi zmdi-menu"></i></span>
+            <ul>
+                @foreach (var item in Model.Where(u => u.ParentId == null))
+                {
+                    <li>
+                        <a href="/Course/Course?selectedGroups=@item.GroupId"> @item.GroupTitel</a>
+                        @if (Model.Any(g => g.ParentId == item.GroupId))
+                        {
+                    <ul>
+                        @foreach (var SUB2 in Model.Where(g => g.ParentId == item.GroupId))
+                        {
+                            <li>
+                                <a href="/Course/Course?selectedGroups=@SUB2.GroupId">@SUB2.GroupTitel</a>
+                            </li>
+                        }
+                        
+                    </ul>
+                         }
+
+                    </li>
+                 }
+            </ul>
+        </nav>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ShowCourseListItemViewModel>
+@using TapLearn.Core.DTOs.Course
+@{
+    ViewData["Title"] = "خانه ";
+}
+
+@section SearchBox
+{
+    <header>
+        <a href="" class="logo"><img src="/images/logo.png"></a>
+        <h1> با اساتید مجرب و کارآزموده در خودآموز تاپ لرن </h1>
+        <h2> آموزش ببینید ، تجربه کسب کنید و بازار کار شوید </h2>
+        <h3> با کمترین هزینه خودت یاد بگیر </h3>
+    </header>
+    <div class="search-form">
+        <form  method="get"  action="/Course/Course"  >
+            <input          type="text" name="Filter" placeholder="چی دوست داری یاد بگیری ؟">
+            <button><i class="zmdi zmdi-search"></i></button>
+        </form>
+    </div>
+}
+<main id="home-page">
+    <div class="container">
+    
+        <section class="terms-items">
+            <header>
+                <h2> آخرین دوره های تاپ لرن </h2>
+                <a href=""> مشاهده همه دوره ها </a>
+            </header>
+
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <partial name="_BoxCourse" model="@item"/>
+                }
+
+
+
+
+            </div>
+        </section>
+
+        <hr>
+        
+
+        <section class="terms-items">
+            <header>
+                <h2> دوره های محبوب تاپ لرن </h2>
+                <a href=""> مشاهده همه دوره ها </a>
+            </header>
+            <!-- col -->
+           <div class="row">
+               @{
+                   List<ShowCourseListItemViewModel> popular = ViewBag.PopularCourse as List<ShowCourseListItemViewModel>;
+
+}
+               @foreach ( var item in popular)
+               { 
+                   <partial    name="_BoxCourse"    model="@item"  />
+               }
+         </div>
+        </section>
+    </div>
+
+  
+</main>
+
+
+
