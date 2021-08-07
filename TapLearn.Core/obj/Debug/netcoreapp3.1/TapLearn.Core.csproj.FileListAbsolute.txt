@@ -1,0 +1,15 @@
+F:\aspAdvance\TopLearn\TapLearn.Core\bin\Debug\netcoreapp3.1\TapLearn.Core.deps.json
+F:\aspAdvance\TopLearn\TapLearn.Core\bin\Debug\netcoreapp3.1\TapLearn.Core.runtimeconfig.json
+F:\aspAdvance\TopLearn\TapLearn.Core\bin\Debug\netcoreapp3.1\TapLearn.Core.runtimeconfig.dev.json
+F:\aspAdvance\TopLearn\TapLearn.Core\bin\Debug\netcoreapp3.1\TapLearn.Core.dll
+F:\aspAdvance\TopLearn\TapLearn.Core\bin\Debug\netcoreapp3.1\TapLearn.Core.pdb
+F:\aspAdvance\TopLearn\TapLearn.Core\bin\Debug\netcoreapp3.1\TapLearn.Layer.dll
+F:\aspAdvance\TopLearn\TapLearn.Core\bin\Debug\netcoreapp3.1\TapLearn.Layer.pdb
+F:\aspAdvance\TopLearn\TapLearn.Core\obj\Debug\netcoreapp3.1\TapLearn.Core.csprojAssemblyReference.cache
+F:\aspAdvance\TopLearn\TapLearn.Core\obj\Debug\netcoreapp3.1\TapLearn.Core.AssemblyInfoInputs.cache
+F:\aspAdvance\TopLearn\TapLearn.Core\obj\Debug\netcoreapp3.1\TapLearn.Core.AssemblyInfo.cs
+F:\aspAdvance\TopLearn\TapLearn.Core\obj\Debug\netcoreapp3.1\TapLearn.Core.csproj.CoreCompileInputs.cache
+F:\aspAdvance\TopLearn\TapLearn.Core\obj\Debug\netcoreapp3.1\TapLearn.Core.csproj.CopyComplete
+F:\aspAdvance\TopLearn\TapLearn.Core\obj\Debug\netcoreapp3.1\TapLearn.Core.dll
+F:\aspAdvance\TopLearn\TapLearn.Core\obj\Debug\netcoreapp3.1\TapLearn.Core.pdb
+F:\aspAdvance\TopLearn\TapLearn.Core\obj\Debug\netcoreapp3.1\TapLearn.Core.genruntimeconfig.cache
