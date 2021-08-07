@@ -1,0 +1,59 @@
+﻿@page
+@model TopLearn.Web.Pages.Admin.Discount.EditDiscountModel
+@using TapLearn.Core.Convertors
+@{
+    ViewData["title"] = "ویرایش کدتخفیف";
+
+}
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">ویرایش کدتخفیف </h1>
+    </div>
+</div>
+<br />
+<div class="row">
+    <form method="post">
+        <input type="hidden" asp-for="disCount.DisCountId" />
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    کد تخفیف
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label>کدتخفیف</label>
+                        <input type="text" asp-for="disCount.DiscountCode" class="form-control">
+                        <label>درصدکدتخفیف</label>
+                        <input type="number" asp-for="disCount.DiscountPercent" class="form-control">
+                        <label>تعداد</label>
+                        <input type="number" asp-for="disCount.UsableCount" class="form-control">
+                        <label>تاریخ شروع</label>
+                        <input id="stDate" type="text" name="StDate" value="@((Model.disCount.StartDate!=null)?Model.disCount.StartDate.Value.ToShamsi():"")">
+                        <label>تاریخ پایان</label>
+                        <input id="edDate" type="text" name="EdDate" value="@((Model.disCount.EndDate!=null)?Model.disCount.EndDate.Value.ToShamsi():"")">
+                    </div>
+                    <input type="submit" value="ذخیره اطلاعات" class="form-control"  />
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+
+
+    </form>
+</div>
+@section Script
+{
+    
+    <link href="http://cdn.kendostatic.com/2013.2.918/styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="http://cdn.kendostatic.com/2013.2.918/styles/kendo.default.min.css" rel="stylesheet" />
+
+    <script src="/js/kendo.all.min.js"></script>
+    <script>
+        // create DatePicker from input HTML element
+        $("#stDate").kendoDatePicker();
+        $("#edDate").kendoDatePicker();
+    </script>
+
+
+}

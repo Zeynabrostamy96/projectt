@@ -1,0 +1,40 @@
+﻿@page
+@model TopLearn.Web.Pages.Admin.Users.ListDeleteUserModel
+@using TapLearn.Core.Convertors
+@{
+}
+<br />
+<div class="col-md-12">
+    <div class="panel panel-danger">
+        <div class="panel-heading">
+            حذف کاربر
+        </div>
+        <div class="panel-body">
+            <form method="post">
+                <input type="hidden" name="userid" value="@ViewData["userid"]" />
+                <table>
+                    <tr>
+                        <td>نام کاربر:</td>
+                        <td>@Model.UserPanelViewModel.UserName</td>
+                    </tr>
+                    <tr>
+                        <td>ایمیل کاربر:</td>
+                        <td>@Model.UserPanelViewModel.Email</td>
+                    </tr>
+                    <tr>
+                        <td>کیف پول  :</td>
+                        <td>@Model.UserPanelViewModel.Wallet</td>
+                    </tr>
+                    <tr>
+                        <td>تاریخ ثبت نام  :</td>
+                        <td>@Model.UserPanelViewModel.RegisterDate.ToShamsi()</td>
+
+                    </tr>
+                </table>
+                <input type="submit" value="حذف" class="btn btn-danger" />
+            </form>
+            
+        </div>
+
+    </div>
+</div>
