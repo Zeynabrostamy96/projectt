@@ -1,0 +1,12 @@
+F:\aspAdvance\TopLearn\TapLearn.Layer\bin\Debug\netcoreapp3.1\TapLearn.Layer.deps.json
+F:\aspAdvance\TopLearn\TapLearn.Layer\bin\Debug\netcoreapp3.1\TapLearn.Layer.runtimeconfig.json
+F:\aspAdvance\TopLearn\TapLearn.Layer\bin\Debug\netcoreapp3.1\TapLearn.Layer.runtimeconfig.dev.json
+F:\aspAdvance\TopLearn\TapLearn.Layer\bin\Debug\netcoreapp3.1\TapLearn.Layer.dll
+F:\aspAdvance\TopLearn\TapLearn.Layer\bin\Debug\netcoreapp3.1\TapLearn.Layer.pdb
+F:\aspAdvance\TopLearn\TapLearn.Layer\obj\Debug\netcoreapp3.1\TapLearn.Layer.AssemblyInfoInputs.cache
+F:\aspAdvance\TopLearn\TapLearn.Layer\obj\Debug\netcoreapp3.1\TapLearn.Layer.AssemblyInfo.cs
+F:\aspAdvance\TopLearn\TapLearn.Layer\obj\Debug\netcoreapp3.1\TapLearn.Layer.csproj.CoreCompileInputs.cache
+F:\aspAdvance\TopLearn\TapLearn.Layer\obj\Debug\netcoreapp3.1\TapLearn.Layer.dll
+F:\aspAdvance\TopLearn\TapLearn.Layer\obj\Debug\netcoreapp3.1\TapLearn.Layer.pdb
+F:\aspAdvance\TopLearn\TapLearn.Layer\obj\Debug\netcoreapp3.1\TapLearn.Layer.genruntimeconfig.cache
+F:\aspAdvance\TopLearn\TapLearn.Layer\obj\Debug\netcoreapp3.1\TapLearn.Layer.csprojAssemblyReference.cache
